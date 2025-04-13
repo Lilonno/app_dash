@@ -12,7 +12,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # Lecture des données
-data = pd.read_csv("C:/Users/lilou/Desktop/M1 Econométrie - Statistique/S2/data.csv")
+data = pd.read_csv("data.csv")
 
 
  
